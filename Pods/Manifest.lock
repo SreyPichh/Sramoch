@@ -1,0 +1,126 @@
+PODS:
+  - Firebase/Core (5.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.3.0)
+  - Firebase/CoreOnly (5.11.0):
+    - FirebaseCore (= 5.1.6)
+  - FirebaseAnalytics (5.3.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (~> 5.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.6):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FLEX (2.4.0)
+  - GoogleAppMeasurement (5.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.4):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.4)
+  - GoogleUtilities/Logger (5.3.4):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.4):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.4)"
+  - GoogleUtilities/Reachability (5.3.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.4):
+    - GoogleUtilities/Logger
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Neon (0.4.0)
+  - Pure (1.0.0):
+    - Pure/Core (= 1.0.0)
+  - Pure/Core (1.0.0)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - ReactorKit (1.2.1):
+    - RxSwift (>= 4.0.0)
+  - RxCocoa (4.3.1):
+    - RxSwift (~> 4.0)
+  - RxFlow (1.6.1):
+    - RxCocoa (>= 4.3.0)
+    - RxSwift (>= 4.3.0)
+  - RxSwift (4.3.1)
+  - SnapKit (4.2.0)
+  - Then (2.4.0)
+
+DEPENDENCIES:
+  - Firebase/Core
+  - FLEX
+  - Neon
+  - Pure
+  - R.swift
+  - ReactorKit
+  - RxCocoa
+  - RxFlow
+  - RxSwift
+  - SnapKit
+  - Then
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FLEX
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - nanopb
+    - Neon
+    - Pure
+    - R.swift
+    - R.swift.Library
+    - ReactorKit
+    - RxCocoa
+    - RxFlow
+    - RxSwift
+    - SnapKit
+    - Then
+
+SPEC CHECKSUMS:
+  Firebase: b48f9e653da971ecce5b8c749684bc8bb2d26bd3
+  FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
+  FirebaseCore: d16552f06821489ce1affe2e5e3e5593402ddfe3
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
+  GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  Pure: b60f73ab5d35dd3aa61c2f203536020a30a92b92
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReactorKit: 8be57f0527ad1ac2963cd5c338274a46a01e57a3
+  RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
+  RxFlow: d5b398955d82bc01c1a43597435e800282c612e0
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+
+PODFILE CHECKSUM: a2f19f1e7771a32b298ad61539418e5524078f56
+
+COCOAPODS: 1.5.3
